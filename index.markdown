@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
 ---
+
+<div id="the-list" class="list-group ">
+    <a href="#" class="list-group-item list-group-item-action active">Classes</a>
+    {% for item in site.data.vancamp %}
+      <p> {{item.link}} - {{item.num}}</p>
+    {% endfor %}
+</div>
+
