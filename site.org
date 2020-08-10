@@ -1,0 +1,8 @@
+* Philosophy
+** Basically Everything is a list
+** All Majors are a list
+** All Projects are a list
+** All Minors are a list
+** Write in emacs
+** Publish it to Github-Pages
+** 
